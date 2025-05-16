@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px 80px;
+  }
+  
+  /* Banner de privacidade */
+  #privacidade-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  #privacidade-banner a {
+    color: #4fc3f7;
+    text-decoration: underline;
+  }
+  
+  #privacidade-banner button {
+    margin-left: 15px;
+    background-color: #4fc3f7;
+    color: #1e1e1e;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Checklist */
+  .checklist {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  .checklist li {
+    margin-bottom: 15px;
+  }
+  
+  .checklist input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  /* Botão Concordo */
+  .botao-concordo {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .botao-concordo:hover {
+    background-color: #43a047;
+  }
+  
+  /* Texto de confirmação */
+  .termo-concordancia {
+    font-size: 0.95rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Link para o fórum */
+  .forum-link {
+    margin-top: 20px;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  
+  .forum-link a {
+    color: #2c3e50;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .forum-link a:hover {
+    text-decoration: underline;
+  }
+  

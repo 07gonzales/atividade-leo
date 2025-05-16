@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Interno de Conduta – Segurança de Dados</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Banner de aviso de privacidade -->
+  <div id="privacidade-banner">
+    <span>Este site coleta dados pessoais. Ao prosseguir, você concorda com nossa <a href="#">política de privacidade</a>.</span>
+    <button onclick="document.getElementById('privacidade-banner').style.display='none'">Concordo</button>
+  </div>
+
+  <main>
+    <h1>Checklist de Boas Práticas com Dados Sensíveis</h1>
+    <p>Este guia foi desenvolvido para orientar nossos desenvolvedores front-end quanto ao tratamento seguro de dados sensíveis.</p>
+    
+    <ul class="checklist">
+      <li><input type="checkbox" id="item1"><label for="item1">Informar o usuário sobre como os dados serão usados</label></li>
+      <li><input type="checkbox" id="item2"><label for="item2">Utilizar HTTPS em todas as comunicações com o back-end</label></li>
+      <li><input type="checkbox" id="item3"><label for="item3">Evitar armazenar senhas em campos visíveis ou em texto plano</label></li>
+      <li><input type="checkbox" id="item4"><label for="item4">Nunca salvar dados sensíveis no LocalStorage</label></li>
+      <li><input type="checkbox" id="item5"><label for="item5">Validar e higienizar os dados ainda no front-end</label></li>
+      <li><input type="checkbox" id="item6"><label for="item6">Manter bibliotecas de segurança sempre atualizadas</label></li>
+    </ul>
+
+    <button class="botao-concordo">Concordo</button>
+
+    <p class="termo-concordancia">
+      Ao clicar em “Concordo”, você declara que leu, compreendeu e está de acordo com as diretrizes de segurança e tratamento de dados sensíveis estabelecidas pela empresa.
+    </p>
+
+  </main>
+
+</body>
+</html>
+
